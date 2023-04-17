@@ -22,15 +22,15 @@ class Stack {
   pop() {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
-    if (Stack.length == 0)
-    return "Underflow";
-    return Stack.pop();
+    // if (Stack.length == 0)
+    // return "Underflow";
+    Stack.pop();
   }
 
   peek() {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
-    return Stack(Stack.length - 1)
+    Stack.peek()
   }
 }
 
