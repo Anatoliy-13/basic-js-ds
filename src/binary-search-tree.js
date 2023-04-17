@@ -13,13 +13,13 @@ class BinarySearchTree {
   }
 
   root() {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     return this.rootNode;
   }
 
   add(data) {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     this.rootNode = addNode(this.rootNode, data);
       function addNode(node, data) {
@@ -41,7 +41,7 @@ class BinarySearchTree {
   }
 
   has(data) {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     return checkNode(this.rootNode, data);
       function checkNode(node, data) {
@@ -56,7 +56,7 @@ class BinarySearchTree {
   }
 
   find( data ) {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     return findNode(this.rootNode, data);
       function findNode(node, data) {
@@ -71,7 +71,7 @@ class BinarySearchTree {
   }
 
   remove(data) {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     this.rootNode = removeNode(this.rootNode, data);
 
@@ -115,7 +115,7 @@ class BinarySearchTree {
   }
 
   min() {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     if (!this.rootNode) {
       return;
@@ -128,7 +128,7 @@ class BinarySearchTree {
   }
 
   max() {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     if (!this.rootNode) {
       return;
